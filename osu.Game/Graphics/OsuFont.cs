@@ -66,6 +66,11 @@ namespace osu.Game.Graphics
         /// </summary>
         public static FontUsage Numeric => GetFont(Typeface.Venera, weight: FontWeight.Bold);
 
+        ///<summary>
+        /// Torus with bold style.
+        /// </summary>
+        public static FontUsage Bold => GetFont(Typeface.Torus, weight: FontWeight.Bold);
+
         /// <summary>
         /// Default font face for UI and game elements.
         /// </summary>

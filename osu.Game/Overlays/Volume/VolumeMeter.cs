@@ -203,7 +203,7 @@ namespace osu.Game.Overlays.Volume
                         {
                             Anchor = Anchor.Centre,
                             Origin = Anchor.Centre,
-                            Font = OsuFont.Numeric.With(size: 0.16f * CircleSize)
+                            Font = OsuFont.Bold.With(size: 0.21f * CircleSize)
                         }).WithEffect(new GlowEffect
                         {
                             Colour = Color4.Transparent,
